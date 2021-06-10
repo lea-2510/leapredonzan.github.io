@@ -8,6 +8,7 @@ h1 {
 .frame {
   border: 3px solid black;
   border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
   margin: 50px;
   padding: 5px;
 }
@@ -46,7 +47,8 @@ h4 {
 
 h5 {
   color: #CC1B47;
-  font-size: 19px;
+  font-size: 25px;
+  font-family: signpainter;
 }
 
 ul {
@@ -86,7 +88,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   width: 600px;
 }
 
-.navbar {
+.my-navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -124,4 +126,3 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   justify-content: center;
   width: 100%;
 }
-
